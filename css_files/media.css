@@ -1,0 +1,720 @@
+/* media query screen size */
+/* extra small */
+@media (max-width: 575.98px){
+    /* Menu */
+    .menus ul li {
+    margin: 0 8px;
+}
+.menus ul li:first-child {
+    margin-top: 20px;
+}
+    /* Menu */
+    /* Banner section */
+    .banner {
+    padding-top: 0px;
+}
+.heading {
+    margin-top: 30px;
+}
+.heading h1 {
+    font-size: 40px;
+}
+.banner_sm {
+    height: 421px;
+}
+    /* Banner section */
+    /* Service section */
+    .service .single_service {
+    height: 320px;
+    margin-top: 40px;
+    padding: 12px 0 0 12px;
+}
+.text h3 {
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+.single_service .img {
+    width: 175px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+    /* Service section */
+    /* Brand section */
+    .brands {
+    min-height: 700px;
+    position: relative;
+}
+.brands .right {
+    height: 400px;
+    margin-top: 20px;
+    position: relative;
+
+}
+.right .brand {
+    position: absolute;
+    width: 110px;
+}
+    .brands .left h3 {
+    margin-bottom: 6px;
+    font-size: 26px;
+}
+    /* Brand section */
+    /* Map section */
+    .map {
+    height: 680px;
+    position: relative;
+}
+.map .m_left {
+    margin-top: 0px;
+}
+.map .m_left h3 {
+    margin-bottom: 6px;
+    font-size: 26px;
+}
+.map .m_right {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 380px;
+    left: 0;
+}
+    /* Map section */
+    /* Slider section */
+    .indicators {
+    margin-top: 10px;
+}
+.indicators button {
+    width: 9px;
+    height: 7px;
+}
+.indicators button.active {
+    width: 9px;
+    height: 5px;
+    margin: 0 5px;
+}
+    /* Slider section */
+    /* Footer section */
+    .footer .first_footer {
+    padding: 50px 0 20px;
+}
+    /* Footer section */
+/* Common part */
+.common_box {
+    & h2 {
+        margin-bottom: 12px;
+        font-size: 26px
+    }
+        & p {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.common_btn {
+    padding: 8px 18px;
+}
+/* Common part */
+
+    .contact_form {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 20px;
+    }
+    .contact_form .c_title {
+    width: 100%;
+    margin-bottom: 25px;
+}
+    .contact_form .c_title h3 {
+        margin-bottom: 6px;
+        font-size: 26px;
+        font-weight: 700;
+    }
+}
+/* small */
+@media (min-width: 576px) and (max-width: 767.98px){
+    /* Menu */
+    .menus ul li {
+    margin: 0 8px;
+}
+.menus ul li:first-child {
+    margin-top: 20px;
+}
+    /* Menu */
+    /* Banner section */
+    .banner {
+    padding-top: 0px;
+}
+.heading {
+        margin-top: 80px;
+    }
+.heading h1 {
+    font-size: 55px;
+}
+.banner_sm {
+    height: 421px;
+}
+    /* Banner section */
+    /* Service section */
+    .service .single_service {
+    height: 320px;
+    margin-top: 40px;
+    padding: 12px 0 0 12px;
+}
+.text h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.single_service .img {
+    width: 240px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+    /* Service section */
+    /* Brand section */
+    .brands {
+    min-height: 700px;
+    position: relative;
+}
+.brands .right {
+    height: 400px;
+    margin-top: 20px;
+    position: relative;
+
+}
+.right .brand {
+    position: absolute;
+    width: 140px;
+}
+    .brands .left h3 {
+    margin-bottom: 12px;
+    font-size: 35px;
+}
+    /* Brand section */
+    /* Map section */
+    .map {
+    height: 680px;
+    position: relative;
+}
+.map .m_left {
+    margin-top: 0px;
+}
+.map .m_left h3 {
+    margin-bottom: 12px;
+    font-size: 35px;
+}
+.map .m_right {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 380px;
+    left: 0;
+}
+    /* Map section */
+    /* Slider section */
+    .indicators {
+    margin-top: 10px;
+}
+.indicators button {
+    width: 9px;
+    height: 7px;
+}
+.indicators button.active {
+    width: 9px;
+    height: 5px;
+    margin: 0 5px;
+}
+    /* Slider section */
+    /* Footer section */
+    .footer .first_footer {
+    padding: 50px 0 20px;
+}
+    /* Footer section */
+/* Common part */
+.common_box {
+    & h2 {
+        margin-bottom: 12px;
+        font-size: 35px
+    }
+        & p {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.common_btn {
+    padding: 8px 18px;
+}
+/* Common part */
+
+    .contact_form {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 20px;
+    }
+    .contact_form .c_title {
+    width: 100%;
+    margin-bottom: 25px;
+}
+    .contact_form .c_title h3 {
+        margin-bottom: 6px;
+        font-size: 26px;
+        font-weight: 700;
+    }
+}
+/* medium */
+@media (min-width: 768px) and (max-width: 991.98px){
+    /* Menu */
+    .menus ul li {
+    margin: 0 8px;
+}
+.menus ul li:first-child {
+    margin-top: 20px;
+}
+    /* Menu */
+    /* Banner section */
+    .banner {
+    padding-top: 0px;
+    min-height: 446px;
+}
+.heading {
+        margin-top: 80px;
+    }
+.heading h1 {
+    font-size: 60px;
+}
+.heading p {
+    margin: 16px 0 32px;
+    padding-right: 428px;
+}
+.banner_sm {
+    height: 421px;
+}
+.banner_img {
+    width: 468px;
+    height: 144%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../images/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+    /* Banner section */
+    /* Service section */
+    .service .single_service {
+    height: 320px;
+    margin-top: 40px;
+    padding: 12px 0 0 12px;
+}
+.text {
+    width: 430px;
+}
+.text h3 {
+    margin-bottom: 12px;
+    font-size: 30px;
+}
+.single_service .img {
+    width: 240px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+    /* Service section */
+    /* Brand section */
+    .brands {
+    min-height: 700px;
+    position: relative;
+}
+.brands .right {
+    height: 400px;
+    margin-top: 20px;
+    position: relative;
+
+}
+.right .brand {
+    position: absolute;
+    width: 140px;
+}
+    .brands .left h3 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+    /* Brand section */
+    /* Map section */
+    .map {
+    height: 680px;
+    position: relative;
+}
+.map .m_left {
+    margin-top: 0px;
+}
+.map .m_left h3 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.map .m_right {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 380px;
+    left: 0;
+}
+    /* Map section */
+    /* Slider section */
+    .indicators {
+    margin-top: 10px;
+}
+.indicators button {
+    width: 9px;
+    height: 7px;
+}
+.indicators button.active {
+    width: 9px;
+    height: 5px;
+    margin: 0 5px;
+}
+    /* Slider section */
+    /* Footer section */
+    .footer .first_footer {
+    padding: 50px 0 20px;
+}
+    /* Footer section */
+/* Common part */
+.common_box {
+    & h2 {
+        margin-bottom: 20px;
+        font-size: 45px
+    }
+        & p {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.common_btn {
+    padding: 8px 18px;
+}
+/* Common part */
+
+    .contact_form {
+        width: 90%;
+        margin: 0 auto;
+        padding: 45px 60px;
+    }
+    .contact_form .c_title {
+    width: 100%;
+    margin-bottom: 25px;
+}
+    .contact_form .c_title h3 {
+        margin-bottom: 20px;
+        font-size: 45px;
+        font-weight: 700;
+    }
+}
+/* large */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /* Menu */
+    .menus ul li {
+    margin: 0 8px;
+}
+.menus ul li:first-child {
+    margin-top: 0px;
+}
+    /* Menu */
+    /* Banner section */
+    .banner {
+    padding-top: 0px;
+    min-height: 446px;
+}
+.heading {
+        margin-top: 80px;
+    }
+.heading h1 {
+    font-size: 60px;
+}
+.heading p {
+    margin: 16px 0 32px;
+    padding-right: 130px;
+}
+.banner_sm {
+    height: 421px;
+}
+.banner_img {
+    width: 530px;
+    height: 144%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../images/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+    /* Banner section */
+    /* Service section */
+    .service .single_service {
+    height: 320px;
+    margin-top: 40px;
+    padding: 17px 0 0 25px;
+}
+.text {
+    width: 430px;
+}
+.text h3 {
+    margin-bottom: 12px;
+    font-size: 30px;
+}
+.single_service .img {
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+    /* Service section */
+    /* Brand section */
+    .brands {
+    min-height: 530px;
+    position: relative;
+}
+.brands .right {
+    height: 400px;
+    margin-top: 20px;
+    position: relative;
+
+}
+.right .brand {
+    position: absolute;
+    width: 140px;
+}
+    .brands .left h3 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+    /* Brand section */
+    /* Map section */
+    .map {
+    height: 350px;
+    position: relative;
+}
+.map .m_left {
+    margin-top: 0px;
+}
+.map .m_left h3 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.map .m_right {
+    width: 500px;
+        height: 350px;
+        position: absolute;
+        top: 0;
+        right: 0;
+}
+    /* Map section */
+    /* Slider section */
+    .indicators {
+    margin-top: 10px;
+}
+.indicators button {
+    width: 9px;
+    height: 7px;
+}
+.indicators button.active {
+    width: 9px;
+    height: 5px;
+    margin: 0 5px;
+}
+    /* Slider section */
+    /* Footer section */
+    .footer .first_footer {
+    padding: 50px 0 20px;
+}
+    /* Footer section */
+/* Common part */
+.common_box {
+    & h2 {
+        margin-bottom: 20px;
+        font-size: 45px
+    }
+        & p {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.common_btn {
+    padding: 8px 18px;
+}
+/* Common part */
+
+    .contact_form {
+        width: 100%;
+        margin: 0 auto;
+        padding: 45px 60px;
+    }
+    .contact_form .c_title {
+    width: 100%;
+    margin-bottom: 25px;
+}
+    .contact_form .c_title h3 {
+        margin-bottom: 20px;
+        font-size: 45px;
+        font-weight: 700;
+    }
+}
+/* extra large */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    .menus ul li:first-child {
+    margin-top: 0px;
+}
+    /* Menu */
+    /* Banner section */
+    .banner {
+    padding-top: 0px;
+    min-height: 446px;
+}
+.heading {
+        margin-top: 80px;
+    }
+.heading h1 {
+    font-size: 60px;
+}
+.heading p {
+    margin: 16px 0 32px;
+    padding-right: 130px;
+}
+.banner_sm {
+    height: 421px;
+}
+.banner_img {
+    width: 650px;
+    height: 115%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../images/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+    /* Banner section */
+    /* Service section */
+    .service .single_service {
+    height: 320px;
+    margin-top: 40px;
+    padding: 30px 0 0 40px;
+}
+.text {
+    width: 430px;
+}
+.text h3 {
+    margin-bottom: 12px;
+    font-size: 30px;
+}
+.single_service .img {
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+    /* Service section */
+    /* Brand section */
+    .brands {
+    min-height: 530px;
+    position: relative;
+}
+.brands .right {
+    height: 400px;
+    margin-top: 20px;
+    position: relative;
+
+}
+.right .brand {
+    position: absolute;
+    width: 140px;
+}
+    .brands .left h3 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+    /* Brand section */
+    /* Map section */
+    .map {
+    height: 350px;
+    position: relative;
+}
+.map .m_left {
+    margin-top: 0px;
+}
+.map .m_left h3 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.map .m_right {
+    width: 570px;
+        height: 350px;
+        position: absolute;
+        top: 0;
+        right: 0;
+}
+    /* Map section */
+    /* Slider section */
+    .indicators {
+    margin-top: 10px;
+}
+.indicators button {
+    width: 9px;
+    height: 7px;
+}
+.indicators button.active {
+    width: 9px;
+    height: 5px;
+    margin: 0 5px;
+}
+    /* Slider section */
+    /* Footer section */
+    .footer .first_footer {
+    padding: 50px 0 20px;
+}
+    /* Footer section */
+/* Common part */
+.common_box {
+    padding: 0 50px;
+    & h2 {
+        margin-bottom: 20px;
+        font-size: 45px
+    }
+        & p {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 80px;
+    }
+}
+.common_btn {
+    padding: 8px 18px;
+}
+/* Common part */
+
+    .contact_form {
+        width: 100%;
+        margin: 0 auto;
+        padding: 45px 60px;
+    }
+    .contact_form .c_title {
+    width: 100%;
+    margin-bottom: 25px;
+}
+    .contact_form .c_title h3 {
+        margin-bottom: 20px;
+        font-size: 45px;
+        font-weight: 700;
+    }
+}
+/* extra extra large */
+@media (min-width: 1400px){
+    .heading {
+        padding-right: 238px;
+    }
+    .banner_img {
+    width: 840px;
+}
+}

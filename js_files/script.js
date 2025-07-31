@@ -32,7 +32,7 @@ toggle_btn.addEventListener('click', () => {
     if(point % 2 === 0) {
         img.src = '../images/cross.png';
         bottom.classList.add('shadow');
-    } else {
+    } else if(point % 2 !== 0){
         img.src = '../images/menu.png';
         bottom.classList.remove('shadow');
     }

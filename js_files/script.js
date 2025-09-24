@@ -54,3 +54,6 @@ const myLoader = () => {
     })
 }
 myLoader()
+window.addEventListener('load', () => {
+    window.scrollTo({top: 0})
+})
